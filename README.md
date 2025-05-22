@@ -14,6 +14,23 @@ Tasks include auditing admissions data in Excel, identifying quality issues, log
 
 ---
 
+---
+
+## 🔍 SQL Examples (Data QA Queries)
+
+If this admissions dataset were stored in a relational database (e.g., MySQL, PostgreSQL), I would use SQL to identify and summarize data quality issues.
+
+### Find rows with missing advisor
+
+```sql
+SELECT * 
+FROM admissions_data
+WHERE advisor IS NULL;
+
+---
+
+
+
 ## 📁 Folder Structure
 
 product-and-data-quality-audit/
