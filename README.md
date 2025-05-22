@@ -22,14 +22,14 @@ If this admissions dataset were stored in a relational database (e.g., MySQL, Po
 
 ### Find rows with missing advisor
 
-```sql
+
 SELECT * 
 FROM admissions_data
 WHERE advisor IS NULL;
 
 ---
 
-
+---
 
 ## 📁 Folder Structure
 
